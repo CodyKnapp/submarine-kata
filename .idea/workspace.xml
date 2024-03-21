@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f06bdd67-ea9d-4185-990f-0825505150b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solutions/wick/submarine/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solutions/wick/submarine/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solutions/wick/submarine/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solutions/wick/submarine/Submarine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/solutions/wick/submarine/DirectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/solutions/wick/submarine/ProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/solutions/wick/submarine/SubmarineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/bad_test_instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test_instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submarine_kata_input.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2e0QpuHDnb2RxEoRJfmt2s70CW4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build submarine-kata.executor": "Run",
+    "Gradle.DirectionTest.executor": "Run",
+    "Gradle.submarine-kata [:Main.main()].executor": "Run",
+    "JUnit.DirectionTest.executor": "Run",
+    "JUnit.ProcessorTest.ThrowsForKnownBadInputFile.executor": "Run",
+    "JUnit.ProcessorTest.executor": "Run",
+    "JUnit.SubmarineTest.InternalStateIsChangedByAValidInstruction.executor": "Run",
+    "JUnit.SubmarineTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "I:/Code/submarine-kata",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\Code\submarine-kata" />
+      <recent name="I:\Code\submarine-kata\src\test\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="solutions.wick.submarine" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SubmarineTest">
+    <configuration name="Good Run" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="solutions.wick.submarine.Main" />
+      <module name="submarine-kata.main" />
+      <option name="PROGRAM_PARAMETERS" value="submarine_kata_input.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solutions.wick.submarine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submarine-kata.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solutions.wick.submarine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="solutions.wick.submarine" />
+      <option name="MAIN_CLASS_NAME" value="solutions.wick.submarine.ProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessorTest.ThrowsForKnownBadInputFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submarine-kata.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solutions.wick.submarine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="solutions.wick.submarine" />
+      <option name="MAIN_CLASS_NAME" value="solutions.wick.submarine.ProcessorTest" />
+      <option name="METHOD_NAME" value="ThrowsForKnownBadInputFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmarineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submarine-kata.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solutions.wick.submarine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="solutions.wick.submarine" />
+      <option name="MAIN_CLASS_NAME" value="solutions.wick.submarine.SubmarineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmarineTest.InternalStateIsChangedByAValidInstruction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submarine-kata.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solutions.wick.submarine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="solutions.wick.submarine" />
+      <option name="MAIN_CLASS_NAME" value="solutions.wick.submarine.SubmarineTest" />
+      <option name="METHOD_NAME" value="InternalStateIsChangedByAValidInstruction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Good Run" />
+      <item itemvalue="JUnit.ProcessorTest.ThrowsForKnownBadInputFile" />
+      <item itemvalue="JUnit.ProcessorTest" />
+      <item itemvalue="JUnit.SubmarineTest" />
+      <item itemvalue="JUnit.SubmarineTest.InternalStateIsChangedByAValidInstruction" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SubmarineTest" />
+        <item itemvalue="JUnit.ProcessorTest" />
+        <item itemvalue="JUnit.ProcessorTest.ThrowsForKnownBadInputFile" />
+        <item itemvalue="Application.Good Run" />
+        <item itemvalue="JUnit.SubmarineTest.InternalStateIsChangedByAValidInstruction" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f06bdd67-ea9d-4185-990f-0825505150b4" name="Changes" comment="" />
+      <created>1711039202132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711039202132</updated>
+      <workItem from="1711039203169" duration="6374000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
