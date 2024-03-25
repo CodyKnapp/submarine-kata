@@ -8,7 +8,7 @@ public enum Direction {
             case "up" -> UP;
             case "down" -> DOWN;
             case "forward" -> FORWARD;
-            default -> null;
+            default -> throw new IllegalArgumentException("Cannot create Direction. Invalid direction supplied in string " + input);
         };
     }
 }

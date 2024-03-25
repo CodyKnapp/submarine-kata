@@ -13,9 +13,7 @@ class DirectionTest {
     }
 
     @Test
-    public void FromStringDoesSomethingFromABadString() {
-        var test = Direction.fromString("no");
-
-        assertNull(test);
+    public void FromStringThrowsIllegalArgumentExceptionForABadString() {
+        assertThrows(IllegalArgumentException.class, () -> Direction.fromString("no"));
     }
 }

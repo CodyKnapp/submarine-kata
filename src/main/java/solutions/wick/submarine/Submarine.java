@@ -10,18 +10,16 @@ public class Submarine {
         try {
             var tokens = instruction.split(" ");
             if (tokens.length != 2) {
-                throw new IllegalArgumentException("Not enough direction parameters supplied in string " + instruction);
+                throw new IllegalArgumentException("Incorrect navigation parameters supplied in string " + instruction);
             }
 
             var direction = Direction.fromString(tokens[0]);
-            if (direction == null) {
-                throw new IllegalArgumentException("Invalid direction supplied in string " + instruction);
-            }
 
             var distance = Integer.parseInt(tokens[1]);
             navigate(direction, distance);
         } catch (Exception e) {
             System.out.println("An error has occurred while navigating for string " + instruction);
+            System.out.println(e.getMessage());
             System.out.println(Arrays.toString(e.getStackTrace()));
             throw e;
         }
