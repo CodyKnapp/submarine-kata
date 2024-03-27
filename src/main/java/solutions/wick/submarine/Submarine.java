@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Submarine {
     int depth;
     int distance;
+    int aim;
 
     public void navigate(String instruction) {
         try {
@@ -27,9 +28,12 @@ public class Submarine {
 
     public void navigate(Direction direction, int distance) {
         switch(direction) {
-            case UP -> depth -= distance;
-            case DOWN -> depth += distance;
-            case FORWARD -> this.distance += distance;
+            case UP -> aim -= distance;
+            case DOWN -> aim += distance;
+            case FORWARD -> {
+                this.distance += distance;
+                depth += distance * aim;
+            }
         }
     }
 

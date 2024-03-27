@@ -18,23 +18,38 @@ class SubmarineTest {
     public void InternalStateIsMaintainedForMultipleInstructions() {
         var sub = new Submarine();
         sub.navigate(Direction.FORWARD, 5);
-        sub.navigate(Direction.DOWN, 10);
+        sub.navigate(Direction.DOWN, 5);
         sub.navigate(Direction.FORWARD, 8);
 
         assertEquals(13, sub.getDistance());
-        assertEquals(10, sub.getDepth());
+        assertEquals(40, sub.getDepth());
     }
 
     @Test
     public void StateChangesCorrectlyForConflictingInstructions() {
         var sub = new Submarine();
-        sub.navigate(Direction.FORWARD, 2);
-        sub.navigate(Direction.DOWN, 10);
+        sub.navigate(Direction.FORWARD, 5);
+        sub.navigate(Direction.DOWN, 5);
+        sub.navigate(Direction.FORWARD, 8);
         sub.navigate(Direction.UP, 3);
         sub.navigate(Direction.DOWN, 8);
+        sub.navigate(Direction.FORWARD, 2);
 
-        assertEquals(2, sub.getDistance());
-        assertEquals(15, sub.getDepth());
+        assertEquals(15, sub.getDistance());
+        assertEquals(60, sub.getDepth());
+    }
+
+    @Test
+    public void StateChangesCorrectlyForZeroedAim() {
+        var sub = new Submarine();
+        sub.navigate(Direction.FORWARD, 5);
+        sub.navigate(Direction.DOWN, 2);
+        sub.navigate(Direction.FORWARD, 1);
+        sub.navigate(Direction.UP, 2);
+        sub.navigate(Direction.FORWARD, 3);
+
+        assertEquals(9, sub.getDistance());
+        assertEquals(2, sub.getDepth());
     }
 
     @Test
@@ -45,7 +60,7 @@ class SubmarineTest {
         sub.navigate("up 3");
 
         assertEquals(15, sub.getDistance());
-        assertEquals(7, sub.getDepth());
+        assertEquals(0, sub.getDepth());
     }
 
     @Test
@@ -59,7 +74,7 @@ class SubmarineTest {
         sub.navigate("forward 2");
 
         assertEquals(15, sub.getDistance());
-        assertEquals(10, sub.getDepth());
+        assertEquals(60, sub.getDepth());
     }
 
     @Test
